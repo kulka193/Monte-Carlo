@@ -8,3 +8,5 @@ where x is a collection of random samples drawn from gaussian distribution. ![](
 ![](http://latex.codecogs.com/gif.latex?E%5B%5Chat%7B%5Cbeta%7D%5D%3D%5Cfrac%7B%5Chat%7B%5Cbeta_%7B1%7D%7D&plus;%5Chat%7B%5Cbeta_%7B2%7D%7D&plus;....&plus;%5Chat%7B%5Cbeta_%7BT%7D%7D%7D%7BT%7D)
 
 So, as the number of trials increases, the mean of the sampling distribution of the parameter will gradually equal to the parameter itself(unbiased estimate) i.e., ![](http://latex.codecogs.com/gif.latex?E%5B%5Chat%7B%5Cbeta%7D%5D%3D%5Cbeta). The below images show the convergence of the parameter to the actual value and the histogram of the parameter ![](http://latex.codecogs.com/gif.latex?%5Chat%7B%5Cbeta%7D) that shows how eventually the sampling distribution will converge to Gaussian.
+![histo](https://user-images.githubusercontent.com/30439795/37012222-4e081666-20b9-11e8-9ac5-7d529785faab.png)
+![mc_conv](https://user-images.githubusercontent.com/30439795/37012227-56afa734-20b9-11e8-9281-9dedfa1fa788.png)
